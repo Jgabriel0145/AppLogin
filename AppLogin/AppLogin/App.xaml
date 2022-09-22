@@ -20,6 +20,10 @@
                 <Setter Property="TextColor" Value="White"/>
                 <Setter Property="FontSize" Value="Medium"/>
             </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="TextColor" Value='White'/>
+            </Style>
             
         </ResourceDictionary>
         

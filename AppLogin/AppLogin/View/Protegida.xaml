@@ -6,15 +6,17 @@
     <ContentPage.Background>
         
         <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-            <GradientStop Color="Purple" Offset="0.3"/>
-            <GradientStop Color="Red" Offset="1.1"/>
+            <GradientStop Color="#050080" Offset="0.3"/>
+            <GradientStop Color="#334AF3" Offset="1.1"/>
         </LinearGradientBrush>
     
     </ContentPage.Background>
 
     <ContentPage.Content>
         <StackLayout>
-            <Frame CornerRadius="10" x:Name="frm_dados" VerticalOptions="CenterAndExpand">
+            <Frame CornerRadius="10" 
+                   x:Name="frm_dados"
+                   VerticalOptions="CenterAndExpand">
                 
                 <StackLayout BackgroundColor="Transparent">
                     <Label x:Name="lbl_boasvindas"/>
